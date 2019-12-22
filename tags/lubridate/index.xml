@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lubridate on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/lubridate/</link>
+    <description>Recent content in lubridate on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 03 Mar 2017 13:46:45 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/lubridate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lubridate</title>
+      <link>https://tomis9.github.io/lubridate/</link>
+      <pubDate>Fri, 03 Mar 2017 13:46:45 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/lubridate/</guid>
+      <description>1. What is lubridate and why would you use it?  it’s an R package that makes working with dates easy;
+ because in basic, no-frills R working with dates may be a little bit daunting
+   2. A few “Hello World” examples Load the package
+library(lubridate) Convert a string to class Date:
+# the base way d &amp;lt;- as.Date(&amp;quot;2017-03-03&amp;quot;) class(d) ## [1] &amp;quot;Date&amp;quot; # the lubridate way d &amp;lt;- ymd(&amp;quot;2017-03-03&amp;quot;) class(d) ## [1] &amp;quot;Date&amp;quot; Extract year, month and day</description>
+    </item>
+    
+  </channel>
+</rss>

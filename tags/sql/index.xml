@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/sql/</link>
+    <description>Recent content in SQL on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 25 Aug 2018 16:22:07 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sqlAlchemy</title>
+      <link>https://tomis9.github.io/sqlalchemy/</link>
+      <pubDate>Sat, 25 Aug 2018 16:22:07 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/sqlalchemy/</guid>
+      <description>1. What is sqlAlchemy and why would you use it?  sqlAlchemy is a python module that enables you to connect to and use sql databases without writing code in sql;
+ using sqlAlchemy has several advantages:
+ you will avoid using long sql strings in your code, which are difficult to read without syntax highlighting (unless you keep you sql queries in separate sql files);
+ you are not vulnerable to sql injection attacks anymore;</description>
+    </item>
+    
+    <item>
+      <title>RMariaDB (former RMySQL)</title>
+      <link>https://tomis9.github.io/rmariadb/</link>
+      <pubDate>Mon, 12 Feb 2018 12:17:56 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/rmariadb/</guid>
+      <description>1. What is RMariaDB and why would you use it?  RMariaDB is an R package available at CRAN that let’s you connect to various SQL databases easily.  Why did I switch from RMySQL to RMariaDB? Because of invalid long integer format when downloading data from a database. A pretty nasty bug in RMySQL, which was resolved in RMariaDB.
+ 2. Usage First you have to create a connection to the database.</description>
+    </item>
+    
+    <item>
+      <title>sqldf</title>
+      <link>https://tomis9.github.io/sqldf/</link>
+      <pubDate>Wed, 01 Mar 2017 13:07:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/sqldf/</guid>
+      <description>1. What is sqldf and why would you use it? sqldf package lets you treat any data.frame object as an sql table. You can write queries as if you were in a database. Pretty useless, comparing to, say, data.table or dplyr + tidyverse.
+Despite it’s uselessness, it works like a charm.
+ 2. A few basic examples: Load the package:
+library(sqldf) ## Warning: no DISPLAY variable so Tk is not available Selecting specific columns:</description>
+    </item>
+    
+  </channel>
+</rss>

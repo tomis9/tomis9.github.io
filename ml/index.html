@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>tomis9&#39;s cookbook</title>
+  <link rel="shortcut icon" type='image/x-icon' href="https://tomis9.github.io/favicon.ico"/>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  
+  <link rel="stylesheet" href="https://tomis9.github.io/css/bootstrap-toc.css">
+
+  
+  <link rel="stylesheet" href="https://tomis9.github.io/css/darcula.css">
+
+  
+  <link rel="stylesheet" href="https://tomis9.github.io/css/style.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">        
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Fascinate&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+</head>
+
+
+<body data-spy="scroll" data-target="#toc">
+
+
+
+<nav id="navbar" class="navbar navbar-expand-md fixed-top navbar-hide transition">
+
+  
+  <a class="navbar-brand"></a>
+
+  <button class="navbar-toggler float-xs-right" data-toggle="collapse" data-target="#collapsibleNavbar">
+    Menu
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://tomis9.github.io">Home</a>
+      </li>
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Python</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/airflow/">airflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/beautiful_soup/">beautiful soup</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/decorators/">decorators</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/flask/">flask</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/learning_tensorflow/">learning tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/logging/">logging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pandas/">pandas</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pyenv/">pyenv, virtualenv, freeze</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pytorch/">pytorch</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/spark/">spark</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/sqlalchemy/">sqlAlchemy</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tensorflow/">tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">R</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/cinr/">C in R</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rmariadb/">RMariaDB (former RMySQL)</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rcpp/">Rcpp</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/classess4/">classes - S4</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/data.table/">data.table</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/debugging/">debugging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/decision_trees/">decision trees</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/ggplot2/">ggplot2</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/logging/">logging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/lubridate/">lubridate</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/nls/">nls</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/packages/">packages</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rtags/">rTags</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/reshape2/">reshape2</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rocker/">rocker</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rstanarm/">rstanarm</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/shiny/">shiny</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/spark/">spark</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/sqldf/">sqldf</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tidyverse/">tidyverse</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Data engineering</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/airflow/">airflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/hadoop/">hadoop</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/logging/">logging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pandas/">pandas</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/spark/">spark</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/useful_processing/">useful processing</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Machine learning</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/ml/">basic machine learning algorithms</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/decision_trees/">decision trees</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/learning_tensorflow/">learning tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/validation/">model validation</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/nls/">nls</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pytorch/">pytorch</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tensorflow/">tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/useful_processing/">useful processing</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">DevOps</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/docker/">docker</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/flask/">flask</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/git/">git</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/heroku/">heroku</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/mesos/">mesos</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pyenv/">pyenv, virtualenv, freeze</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rocker/">rocker</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/vagrant/">vagrant</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Projects</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/vim_vs_emacs/">vim vs emacs - text mining to settle the editor war</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/cookbook/">writing a cookbook</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">scratchpad</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/hugo/">Hugo</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/file/">Rmarkdown total basics</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/caffee/">caffee</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/cassandra/">cassandra</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/featuretools/">featuretools</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/gitlab_ci/">gitlab-ci</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/kafka/">kafka</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/marathon/">marathon</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/nlp/">nlp</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pandas/">pandas</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/passing_arguments/">passing arguments to scripts</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/redis/">redis</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tensorflow_serving/">tensorflow_serving</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/theano/">theano</a>
+          
+        </div>
+      </li>
+    
+    </ul>
+
+  </div>  
+
+</nav>
+
+
+
+<div class="jumbotron text-center" id="header">
+
+  <div id="header-title">
+      <a href="https://tomis9.github.io">tomis9&#39;s cookbook</a>
+  </div>
+
+  <p style="color: white;">data science tutorials and snippets prepared by tomis9</p> 
+
+</div>
+
+
+<nav id="toc" data-toggle="toc" class="sticky-top d-none d-xl-block"></nav>
+
+<div class="article">
+
+<div class="article-categories">
+  
+    <object style="vertical-align:middle" type="image/svg+xml" data="/folder.svg" height="15px" width="15px"></object> 
+    <a href="https://tomis9.github.io/categories/machine-learning" role="button">Machine learning </a>
+    &emsp;
+  </br>
+</div>
+<div class="article-title">
+  
+  basic machine learning algorithms
+
+</div>
+<div class="article-info">
+    Apr 22, 2019 &emsp;  &emsp; 13 minutes read
+</div>
+
+
+
+
+<div id="what-is-machine-learning-and-why-would-you-use-it" class="section level2">
+<h2>1. What is machine learning and why would you use it?</h2>
+<ul>
+<li><p>it’s a rather complicated, yet beautiful tool for boldly going where no man has gone before.</p></li>
+<li><p>in other words, it enables you to extract valuable information from data.</p></li>
+</ul>
+</div>
+<div id="examples-of-the-most-popular-machine-learning-algorithms-in-python-and-r" class="section level2">
+<h2>2. Examples of the most popular machine learning algorithms in Python and R</h2>
+<p>We’ll be working on <code>iris</code> dataset, which is easily available in Python (<code>from sklearn import datasets; datasets.load_iris()</code>) and R (<code>data(iris)</code>).</p>
+<p>We will use a few of the most popular machine learning tools:</p>
+<ul>
+<li><p>R base,</p></li>
+<li><p>R caret,</p>
+<ul>
+<li><p><a href="https://cran.r-project.org/web/packages/caret/vignettes/caret.html">a short introduction to caret</a></p></li>
+<li><p><a href="http://topepo.github.io/caret/index.html">The <em>caret</em> package</a></p></li>
+</ul></li>
+<li><p>Python scikit-learn,</p></li>
+<li><p>Python API to <a href="http://tomis9.com/tensorflow">tensorflow</a>. <code>tensorflow</code> was used in very few cases, because it is designed mainly for neural networks, and we would have to implement the algorithms from scratch.</p></li>
+</ul>
+<p>Let’s prepare data for our algorithms. You can read more about data preparation in <a href="http://tomis9.com/useful_processing">this blog post</a>.</p>
+<div id="data-preparation" class="section level3">
+<h3>data preparation</h3>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn import datasets
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+
+iris = datasets.load_iris()
+X, y = iris.data, iris.target
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.33, random_state=42)
+
+boston = datasets.load_boston()
+# I will divide boston dataset to train and test later on</code></pre>
+<p><em>tensorflow</em></p>
+<p>You can use functions from <a href="https://medium.com/tensorflow/introducing-tensorflow-datasets-c7f01f7e19f3">tensorflow_datasets</a> module, but… does anybody use them?</p>
+<p><em>base R</em></p>
+<pre class="r"><code># unfortunately base R does not provide a function for train/test split
+train_test_split &lt;- function(test_size = 0.33, dataset) {
+    smp_size &lt;- floor(test_size * nrow(dataset))
+    test_ind &lt;- sample(seq_len(nrow(dataset)), size = smp_size)
+
+    test &lt;- dataset[test_ind, ]
+    train &lt;- dataset[-test_ind, ]
+    return(list(train = train, test = test))
+}
+
+library(gsubfn)</code></pre>
+<pre><code>## Warning: no DISPLAY variable so Tk is not available</code></pre>
+<pre class="r"><code>list[train, test] &lt;- train_test_split(0.5, iris)</code></pre>
+<p><em>caret R</em></p>
+<pre class="r"><code># docs: ..., the random sampling is done within the
+# levels of ‘y’ when ‘y’ is a factor in an attempt to balance the class
+# distributions within the splits.
+# I provide package&#39;s name before function&#39;s name for clarity</code></pre>
+<pre class="r"><code>trainIndex &lt;- caret::createDataPartition(iris$Species, p=0.7, list = FALSE, 
+                                         times = 1)
+train &lt;- iris[trainIndex,]
+test &lt;- iris[-trainIndex,]</code></pre>
+</div>
+<div id="svm" class="section level3">
+<h3>SVM</h3>
+<p>The best description of SVM I found is in <em>Data mining and analysis - Zaki, Meira</em>. In general, I highly recommend this book.</p>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn.svm import SVC  # support vector classification
+
+svc = SVC()
+svc.fit(X_train, y_train)</code></pre>
+<pre><code>## SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+##     decision_function_shape=&#39;ovr&#39;, degree=3, gamma=&#39;auto_deprecated&#39;,
+##     kernel=&#39;rbf&#39;, max_iter=-1, probability=False, random_state=None,
+##     shrinking=True, tol=0.001, verbose=False)
+## 
+## /usr/local/lib/python3.5/dist-packages/sklearn/svm/base.py:193: FutureWarning: The default value of gamma will change from &#39;auto&#39; to &#39;scale&#39; in version 0.22 to account better for unscaled features. Set gamma explicitly to &#39;auto&#39; or &#39;scale&#39; to avoid this warning.
+##   &quot;avoid this warning.&quot;, FutureWarning)</code></pre>
+<pre class="python"><code>print(accuracy_score(svc.predict(X_test), y_test))</code></pre>
+<pre><code>## 1.0</code></pre>
+<p>TODO: <a href="https://scikit-learn.org/0.18/auto_examples/svm/plot_iris.html">plotting svm in scikit</a></p>
+<p><em>“base” R</em></p>
+<pre class="r"><code>svc &lt;- e1071::svm(Species ~ ., train)
+
+pred &lt;- as.character(predict(svc, test[, 1:4]))
+mean(pred == test[&quot;Species&quot;])</code></pre>
+<pre><code>## [1] 0.9555556</code></pre>
+<p><em>caret R</em></p>
+<pre class="r"><code>svm_linear &lt;- caret::train(Species ~ ., data = train, method = &quot;svmLinear&quot;)
+mean(predict(svm_linear, test) == test$Species)</code></pre>
+<pre><code>## [1] 0.9777778</code></pre>
+</div>
+<div id="decision-trees" class="section level3">
+<h3>decision trees</h3>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn.tree import DecisionTreeClassifier
+
+dtc = DecisionTreeClassifier()
+dtc.fit(X_train, y_train)</code></pre>
+<pre><code>## DecisionTreeClassifier(class_weight=None, criterion=&#39;gini&#39;, max_depth=None,
+##                        max_features=None, max_leaf_nodes=None,
+##                        min_impurity_decrease=0.0, min_impurity_split=None,
+##                        min_samples_leaf=1, min_samples_split=2,
+##                        min_weight_fraction_leaf=0.0, presort=False,
+##                        random_state=None, splitter=&#39;best&#39;)</code></pre>
+<pre class="python"><code>print(accuracy_score(y_test, dtc.predict(X_test)))</code></pre>
+<pre><code>## 0.98</code></pre>
+<p>TODO: <a href="https://medium.com/@rnbrown/creating-and-visualizing-decision-trees-with-python-f8e8fa394176">an article on drawing decision trees in Python</a></p>
+<p><em>“base” R</em></p>
+<pre class="r"><code>dtc &lt;- rpart::rpart(Species ~ ., train)
+print(dtc)</code></pre>
+<pre><code>## n= 105 
+## 
+## node), split, n, loss, yval, (yprob)
+##       * denotes terminal node
+## 
+## 1) root 105 70 setosa (0.3333333 0.3333333 0.3333333)  
+##   2) Petal.Length&lt; 2.6 35  0 setosa (1.0000000 0.0000000 0.0000000) *
+##   3) Petal.Length&gt;=2.6 70 35 versicolor (0.0000000 0.5000000 0.5000000)  
+##     6) Petal.Width&lt; 1.75 39  4 versicolor (0.0000000 0.8974359 0.1025641) *
+##     7) Petal.Width&gt;=1.75 31  0 virginica (0.0000000 0.0000000 1.0000000) *</code></pre>
+<pre class="r"><code>rpart.plot::rpart.plot(dtc)</code></pre>
+<p><img src="https://tomis9.github.io/ml_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<pre class="r"><code>pred &lt;- predict(dtc, test[,1:4], type = &quot;class&quot;)
+mean(pred == test[[&quot;Species&quot;]])</code></pre>
+<pre><code>## [1] 0.9555556</code></pre>
+<p><em>caret R</em></p>
+<pre class="r"><code>c_dtc &lt;- caret::train(Species ~ ., train, method = &quot;rpart&quot;)
+print(c_dtc)</code></pre>
+<pre><code>## CART 
+## 
+## 105 samples
+##   4 predictor
+##   3 classes: &#39;setosa&#39;, &#39;versicolor&#39;, &#39;virginica&#39; 
+## 
+## No pre-processing
+## Resampling: Bootstrapped (25 reps) 
+## Summary of sample sizes: 105, 105, 105, 105, 105, 105, ... 
+## Resampling results across tuning parameters:
+## 
+##   cp         Accuracy   Kappa    
+##   0.0000000  0.9500351  0.9241468
+##   0.4428571  0.6705453  0.5221465
+##   0.5000000  0.5329165  0.3248991
+## 
+## Accuracy was used to select the optimal model using the largest value.
+## The final value used for the model was cp = 0.</code></pre>
+<pre class="r"><code>rpart.plot::rpart.plot(c_dtc$finalModel)</code></pre>
+<p><img src="https://tomis9.github.io/ml_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>I described working with decision trees in R in more detail in <a href="http://tomis9.com/decision_trees/">another blog post</a>.</p>
+</div>
+<div id="random-forests" class="section level3">
+<h3>random forests</h3>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn.ensemble import RandomForestClassifier
+
+rfc = RandomForestClassifier()
+rfc.fit(X_train, y_train)</code></pre>
+<pre><code>## RandomForestClassifier(bootstrap=True, class_weight=None, criterion=&#39;gini&#39;,
+##                        max_depth=None, max_features=&#39;auto&#39;, max_leaf_nodes=None,
+##                        min_impurity_decrease=0.0, min_impurity_split=None,
+##                        min_samples_leaf=1, min_samples_split=2,
+##                        min_weight_fraction_leaf=0.0, n_estimators=10,
+##                        n_jobs=None, oob_score=False, random_state=None,
+##                        verbose=0, warm_start=False)
+## 
+## /usr/local/lib/python3.5/dist-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+##   &quot;10 in version 0.20 to 100 in 0.22.&quot;, FutureWarning)</code></pre>
+<pre class="python"><code>print(accuracy_score(rfc.predict(X_test), y_test))</code></pre>
+<pre><code>## 0.98</code></pre>
+<p><em>“base” R</em></p>
+<pre class="r"><code>rf &lt;- randomForest::randomForest(Species ~ ., data = train)
+mean(predict(rf, test[, 1:4]) == test[[&quot;Species&quot;]])</code></pre>
+<pre><code>## [1] 0.9555556</code></pre>
+<p><em>caret R</em></p>
+<pre class="r"><code>c_rf &lt;- caret::train(Species ~ ., train, method = &quot;rf&quot;)
+print(c_rf)</code></pre>
+<pre><code>## Random Forest 
+## 
+## 105 samples
+##   4 predictor
+##   3 classes: &#39;setosa&#39;, &#39;versicolor&#39;, &#39;virginica&#39; 
+## 
+## No pre-processing
+## Resampling: Bootstrapped (25 reps) 
+## Summary of sample sizes: 105, 105, 105, 105, 105, 105, ... 
+## Resampling results across tuning parameters:
+## 
+##   mtry  Accuracy   Kappa    
+##   2     0.9581911  0.9364327
+##   3     0.9580316  0.9362142
+##   4     0.9599618  0.9391382
+## 
+## Accuracy was used to select the optimal model using the largest value.
+## The final value used for the model was mtry = 4.</code></pre>
+<pre class="r"><code>print(c_dtc$finalModel)</code></pre>
+<pre><code>## n= 105 
+## 
+## node), split, n, loss, yval, (yprob)
+##       * denotes terminal node
+## 
+## 1) root 105 70 setosa (0.3333333 0.3333333 0.3333333)  
+##   2) Petal.Length&lt; 2.6 35  0 setosa (1.0000000 0.0000000 0.0000000) *
+##   3) Petal.Length&gt;=2.6 70 35 versicolor (0.0000000 0.5000000 0.5000000)  
+##     6) Petal.Width&lt; 1.75 39  4 versicolor (0.0000000 0.8974359 0.1025641) *
+##     7) Petal.Width&gt;=1.75 31  0 virginica (0.0000000 0.0000000 1.0000000) *</code></pre>
+</div>
+<div id="knn" class="section level3">
+<h3>knn</h3>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn.neighbors import KNeighborsClassifier
+
+knn = KNeighborsClassifier()
+knn.fit(X, y)</code></pre>
+<pre><code>## KNeighborsClassifier(algorithm=&#39;auto&#39;, leaf_size=30, metric=&#39;minkowski&#39;,
+##                      metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+##                      weights=&#39;uniform&#39;)</code></pre>
+<pre class="python"><code>print(accuracy_score(y, knn.predict(X)))</code></pre>
+<pre><code>## 0.9666666666666667</code></pre>
+<p><em>R</em></p>
+<pre class="r"><code>kn &lt;- class::knn(train[,1:4], test[,1:4], cl = train[,5], k = 3) 
+mean(kn == test[,5])</code></pre>
+<pre><code>## [1] 0.9555556</code></pre>
+<p>TODO: caret r knn</p>
+</div>
+<div id="kmeans" class="section level3">
+<h3>kmeans</h3>
+<p>K-means can be nicely plotted in two dimensions with help of <a href="http://tomis9.com/dimensionality/#pca">PCA</a>.</p>
+<p><em>R</em></p>
+<pre class="r"><code>pca &lt;- prcomp(iris[,1:4], center = TRUE, scale. = TRUE)
+# devtools::install_github(&quot;vqv/ggbiplot&quot;)
+ggbiplot::ggbiplot(pca, obs.scale = 1, var.scale = 1, groups = iris$Species, 
+                   ellipse = TRUE, circle = TRUE)</code></pre>
+<p><img src="https://tomis9.github.io/ml_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<pre class="r"><code>iris_pca &lt;- scale(iris[,1:4]) %*% pca$rotation 
+iris_pca &lt;- as.data.frame(iris_pca)
+iris_pca &lt;- cbind(iris_pca, Species = iris$Species)
+
+ggplot2::ggplot(iris_pca, aes(x = PC1, y = PC2, color = Species)) +
+  geom_point()</code></pre>
+<p><img src="https://tomis9.github.io/ml_files/figure-html/unnamed-chunk-16-2.png" width="672" /></p>
+<pre class="r"><code>plot_kmeans &lt;- function(km, iris_pca) {
+  # we choose only first two components, so they could be plotted
+  plot(iris_pca[,1:2], col = km$cluster, pch = as.integer(iris_pca$Species))
+  points(km$centers, col = 1:2, pch = 8, cex = 2)
+}
+par(mfrow=c(1, 3))
+# we use 3 centers, because we already know that there are 3 species
+sapply(list(kmeans(iris_pca[,1], centers = 3),
+            kmeans(iris_pca[,1:2], centers = 3),
+            kmeans(iris_pca[,1:4], centers = 3)),
+       plot_kmeans, iris_pca = iris_pca)</code></pre>
+<p><img src="https://tomis9.github.io/ml_files/figure-html/unnamed-chunk-16-3.png" width="672" /></p>
+<pre><code>## [[1]]
+## NULL
+## 
+## [[2]]
+## NULL
+## 
+## [[3]]
+## NULL</code></pre>
+<p>interesting article - <a href="https://cran.r-project.org/web/packages/broom/vignettes/kmeans.html">kmeans with dplyr and broom</a></p>
+<p>TODO: caret r - kmeans</p>
+<p>TODO: python - kmeans</p>
+</div>
+<div id="linear-regression" class="section level3">
+<h3>linear regression</h3>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn.linear_model import LinearRegression
+from sklearn import datasets
+
+X, y = boston.data, boston.target
+
+lr = LinearRegression()
+lr.fit(X, y)</code></pre>
+<pre><code>## LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)</code></pre>
+<pre class="python"><code>print(lr.intercept_)</code></pre>
+<pre><code>## 36.45948838509017</code></pre>
+<pre class="python"><code>print(lr.coef_)
+# TODO calculate this with iris dataset</code></pre>
+<pre><code>## [-1.08011358e-01  4.64204584e-02  2.05586264e-02  2.68673382e+00
+##  -1.77666112e+01  3.80986521e+00  6.92224640e-04 -1.47556685e+00
+##   3.06049479e-01 -1.23345939e-02 -9.52747232e-01  9.31168327e-03
+##  -5.24758378e-01]</code></pre>
+<p><em>tensorflow</em></p>
+<ul>
+<li>data preparation</li>
+</ul>
+<pre class="python"><code>import tensorflow as tf</code></pre>
+<pre><code>## /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_qint8 = np.dtype([(&quot;qint8&quot;, np.int8, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_quint8 = np.dtype([(&quot;quint8&quot;, np.uint8, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_qint16 = np.dtype([(&quot;qint16&quot;, np.int16, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_quint16 = np.dtype([(&quot;quint16&quot;, np.uint16, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_qint32 = np.dtype([(&quot;qint32&quot;, np.int32, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   np_resource = np.dtype([(&quot;resource&quot;, np.ubyte, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_qint8 = np.dtype([(&quot;qint8&quot;, np.int8, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_quint8 = np.dtype([(&quot;quint8&quot;, np.uint8, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_qint16 = np.dtype([(&quot;qint16&quot;, np.int16, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_quint16 = np.dtype([(&quot;quint16&quot;, np.uint16, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   _np_qint32 = np.dtype([(&quot;qint32&quot;, np.int32, 1)])
+## /usr/local/lib/python3.5/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or &#39;1type&#39; as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / &#39;(1,)type&#39;.
+##   np_resource = np.dtype([(&quot;resource&quot;, np.ubyte, 1)])</code></pre>
+<pre class="python"><code>from sklearn.datasets import load_iris
+import numpy as np
+
+def get_data(tensorflow=True):
+    iris = load_iris()
+    data = iris.data
+    y = data[:, 0].reshape(150, 1)
+    x0 = np.ones(150).reshape(150, 1)
+    X = np.concatenate((x0, data[:, 1:]), axis=1)
+    if tensorflow:
+        y = tf.constant(y, name=&#39;y&#39;)
+        X = tf.constant(X, name=&#39;X&#39;)  # constant is a tensor
+    return X, y</code></pre>
+<ul>
+<li>using normal equations</li>
+</ul>
+<pre class="python"><code>def construct_beta_graph(X, y):
+    cov = tf.matmul(tf.transpose(X), X, name=&#39;cov&#39;)
+    inv_cov = tf.matrix_inverse(cov, name=&#39;inv_cov&#39;)
+    xy = tf.matmul(tf.transpose(X), y, name=&#39;xy&#39;)
+    beta = tf.matmul(inv_cov, xy, name=&#39;beta&#39;)
+    return beta
+
+
+X, y = get_data()
+beta = construct_beta_graph(X, y)
+mse = tf.reduce_mean(tf.square(y - tf.matmul(X, beta)))
+
+init = tf.global_variables_initializer()
+with tf.Session() as sess:
+    init.run()
+    print(beta.eval())
+    print(mse.eval())</code></pre>
+<pre><code>## [[ 1.85599749]
+##  [ 0.65083716]
+##  [ 0.70913196]
+##  [-0.55648266]]
+## 0.09630269942460729</code></pre>
+<ul>
+<li>using gradient descent and mini-batches</li>
+</ul>
+<pre class="python"><code>learning_rate = 0.01
+n_iter = 1000
+
+X_train, y_train = get_data(tensorflow=False)
+
+X = tf.placeholder(&quot;float64&quot;, shape=(None, 4))  # placeholder -
+y = tf.placeholder(&quot;float64&quot;, shape=(None, 1))
+
+start_values = tf.random_uniform([4, 1], -1, 1, dtype=&quot;float64&quot;)
+beta = tf.Variable(start_values, name=&#39;beta&#39;)
+mse = tf.reduce_mean(tf.square(y - tf.matmul(X, beta)))
+
+optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
+_training = optimizer.minimize(mse)
+
+batch_indexes = np.arange(150).reshape(5,30)
+
+init = tf.global_variables_initializer()
+with tf.Session() as sess:
+    init.run()
+    for i in range(n_iter):
+        for batch_index in batch_indexes:
+            _training.run(feed_dict={X: X_train[batch_index],
+                                     y: y_train[batch_index]})
+        if not i % 100:
+            print(mse.eval(feed_dict={X: X_train, y: y_train}))
+    print(mse.eval(feed_dict={X: X_train, y: y_train}), &quot;- final score&quot;)
+    print(beta.eval())</code></pre>
+<pre><code>## 2.3895152369649946
+## 0.10797717245831852
+## 0.10373690497710132
+## 0.10151411027702137
+## 0.1002318517147055
+## 0.09941500533633553
+## 0.0988476858681415
+## 0.09842729043262417
+## 0.09810184472808979
+## 0.09784279281501808
+## 0.0976348605920062 - final score
+## [[ 1.51170067]
+##  [ 0.7385839 ]
+##  [ 0.73761717]
+##  [-0.58416114]]</code></pre>
+<p><em>base R</em></p>
+<pre class="r"><code>model &lt;- lm(Sepal.Length ~ ., train)
+summary(model)</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = Sepal.Length ~ ., data = train)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -0.64990 -0.19821  0.02046  0.21233  0.67506 
+## 
+## Coefficients:
+##                   Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)        1.95948    0.31803   6.161 1.56e-08 ***
+## Sepal.Width        0.54600    0.09536   5.726 1.11e-07 ***
+## Petal.Length       0.82000    0.08097  10.127  &lt; 2e-16 ***
+## Petal.Width       -0.01272    0.17011  -0.075 0.940539    
+## Speciesversicolor -0.94541    0.26745  -3.535 0.000622 ***
+## Speciesvirginica  -1.52013    0.36870  -4.123 7.79e-05 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.297 on 99 degrees of freedom
+## Multiple R-squared:  0.871,  Adjusted R-squared:  0.8645 
+## F-statistic: 133.7 on 5 and 99 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><code>lm()</code> function automatically converts factor variables to one-hot encoded features.</p>
+<p><em>R caret</em></p>
+<pre class="r"><code>library(caret)
+
+m &lt;- train(Sepal.Length ~ ., data = train, method = &quot;lm&quot;)
+summary(m)  # exactly the same as lm()</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = .outcome ~ ., data = dat)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -0.64990 -0.19821  0.02046  0.21233  0.67506 
+## 
+## Coefficients:
+##                   Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)        1.95948    0.31803   6.161 1.56e-08 ***
+## Sepal.Width        0.54600    0.09536   5.726 1.11e-07 ***
+## Petal.Length       0.82000    0.08097  10.127  &lt; 2e-16 ***
+## Petal.Width       -0.01272    0.17011  -0.075 0.940539    
+## Speciesversicolor -0.94541    0.26745  -3.535 0.000622 ***
+## Speciesvirginica  -1.52013    0.36870  -4.123 7.79e-05 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.297 on 99 degrees of freedom
+## Multiple R-squared:  0.871,  Adjusted R-squared:  0.8645 
+## F-statistic: 133.7 on 5 and 99 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="logistic-regression" class="section level3">
+<h3>logistic regression</h3>
+<p>In these examples I will present classification of a dummy variable.</p>
+<p><em>Python</em></p>
+<pre class="python"><code>from sklearn.linear_model import LogisticRegression
+
+cond = iris.target != 2
+X = iris.data[cond]
+y = iris.target[cond]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.33, random_state=42)
+
+lr = LogisticRegression()
+
+lr.fit(X_train, y_train)</code></pre>
+<pre><code>## LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+##                    intercept_scaling=1, l1_ratio=None, max_iter=100,
+##                    multi_class=&#39;warn&#39;, n_jobs=None, penalty=&#39;l2&#39;,
+##                    random_state=None, solver=&#39;warn&#39;, tol=0.0001, verbose=0,
+##                    warm_start=False)
+## 
+## /usr/local/lib/python3.5/dist-packages/sklearn/linear_model/logistic.py:432: FutureWarning: Default solver will be changed to &#39;lbfgs&#39; in 0.22. Specify a solver to silence this warning.
+##   FutureWarning)</code></pre>
+<pre class="python"><code>accuracy_score(lr.predict(X_test), y_test)</code></pre>
+<pre><code>## 1.0</code></pre>
+<p><em>base R</em></p>
+<pre class="r"><code>species &lt;- c(&quot;setosa&quot;, &quot;versicolor&quot;)
+d &lt;- iris[iris$Species %in% species,]
+d$Species &lt;- factor(d$Species, levels = species)
+library(gsubfn)
+list[train, test] &lt;- train_test_split(0.5, d)
+
+m &lt;- glm(Species ~ Sepal.Length, train, family = binomial)
+# predictions - if prediction is bigger than 0.5, we assume it&#39;s a one, 
+# or success
+y_hat_test &lt;- predict(m, test[,1:4], type = &quot;response&quot;) &gt; 0.5
+
+# glm&#39;s doc:
+# For ‘binomial’ and ‘quasibinomial’ families the response can also
+# be specified as a ‘factor’ (when the first level denotes failure
+# and all others success) or as a two-column matrix with the columns
+# giving the numbers of successes and failures.
+# in our case - species[1] (&quot;setosa&quot;) is a failure (0) and species[2] 
+# (&quot;versicolor&quot;) is 1 (success)
+# successes:
+y_test &lt;- test$Species == species[2]
+
+mean(y_test == y_hat_test)</code></pre>
+<pre><code>## [1] 0.9</code></pre>
+<p><em>R caret</em></p>
+<pre class="r"><code>library(caret)
+m2 &lt;- train(Species ~ Sepal.Length, data = train, method = &quot;glm&quot;, family = binomial)
+mean(predict(m2, test) == test$Species)</code></pre>
+<pre><code>## [1] 0.9</code></pre>
+</div>
+<div id="xgboost" class="section level3">
+<h3>xgboost</h3>
+<p><em>Python</em></p>
+<pre class="python"><code>from xgboost import XGBClassifier
+
+cond = iris.target != 2
+X = iris.data[cond]
+y = iris.target[cond]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.33, random_state=42)
+
+xgb = XGBClassifier()
+xgb.fit(X_train, y_train)</code></pre>
+<pre><code>## XGBClassifier(base_score=0.5, booster=&#39;gbtree&#39;, colsample_bylevel=1,
+##               colsample_bynode=1, colsample_bytree=1, gamma=0,
+##               learning_rate=0.1, max_delta_step=0, max_depth=3,
+##               min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+##               nthread=None, objective=&#39;binary:logistic&#39;, random_state=0,
+##               reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+##               silent=None, subsample=1, verbosity=1)</code></pre>
+<pre class="python"><code>accuracy_score(xgb.predict(X_test), y_test)</code></pre>
+<pre><code>## 1.0</code></pre>
+<p><em>“base” R</em></p>
+<pre class="r"><code>species &lt;- c(&quot;setosa&quot;, &quot;versicolor&quot;)
+d &lt;- iris[iris$Species %in% species,]
+d$Species &lt;- factor(d$Species, levels = species)
+library(gsubfn)
+list[train, test] &lt;- train_test_split(0.5, d)
+
+library(xgboost)
+m &lt;- xgboost(
+  data = as.matrix(train[,1:4]), 
+  label = as.integer(train$Species) - 1,
+  objective = &quot;binary:logistic&quot;,
+  nrounds = 2)</code></pre>
+<pre><code>## [1]  train-error:0.000000 
+## [2]  train-error:0.000000</code></pre>
+<pre class="r"><code>mean(predict(m, as.matrix(test[,1:4])) &gt; 0.5) == (as.integer(test$Species) - 1)</code></pre>
+<pre><code>##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+## [12] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+## [23] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+## [34] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+## [45] FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<p>TODO: R: xgb.save(), xgb.importance()</p>
+<p><em>caret R</em></p>
+<p>TODO: <a href="https://www.kaggle.com/pelkoja/visual-xgboost-tuning-with-caret">tuning xgboost with caret</a></p>
+</div>
+</div>
+
+</div>
+
+<div class="jumbotron text-center" id="footer">
+
+  made using &emsp;
+  <br class="d-xl-none">
+  <a href="https://gohugo.io/">Hugo</a> |
+  <a href="https://getbootstrap.com/">Bootstrap</a> |
+  <a href="https://highlightjs.org/">highlightjs</a> |
+  <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> |
+  <a href="https://fonts.google.com/">Google fonts</a> &emsp;
+  <br class="d-xl-none">
+  <a href="https://github.com/tomis9/cookbook">github</a> |
+  <a href="https://travis-ci.org/tomis9/cookbook">travis-ci</a> <a href="https://travis-ci.org/tomis9/cookbook"><img src="https://api.travis-ci.org/tomis9/cookbook.png"></img></a> |
+  <a href="https://hub.docker.com/r/tomis9/cookbook">docker hub</a> &emsp;
+  <br class="d-xl-none">
+  <a href="https://aws.amazon.com/s3">Amazon S3</a> |
+  <a href="https://aws.amazon.com/route53/">Amazon Route 53</a> &emsp;
+  <br class="d-xl-none">
+  Copyright &copy; 2019 tomis9
+
+</div>
+
+</body>
+
+
+
+<script src="https://tomis9.github.io/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<script src="https://tomis9.github.io/js/bootstrap-toc.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+<script>
+$(window).scroll(function() {
+  
+  if ($(window).scrollTop() > 100 ) {
+    $('.navbar').removeClass('navbar-hide');
+    $('.navbar').addClass('navbar-show');
+  } else {
+    $('.navbar').removeClass('navbar-show');
+    $('.navbar').addClass('navbar-hide');
+  };   	
+});
+</script>
+
+</html>
+

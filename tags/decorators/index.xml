@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>decorators on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/decorators/</link>
+    <description>Recent content in decorators on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Aug 2018 15:30:35 +0200</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/decorators/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>decorators</title>
+      <link>https://tomis9.github.io/decorators/</link>
+      <pubDate>Sun, 12 Aug 2018 15:30:35 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/decorators/</guid>
+      <description>1. What are decorators and why would you use them?  decorators in Python are special functions that take a function as an argument and slightly change it’s behaviour, e.g. it’s return value;
+ you can write your own decorators, which is rather easy (I highly recommend Fluent Python as a reference)
+ but there are already many useful decorators available in Python.
+  I am not going to describe here how to write your own decorator as, to be honest, I used them only twice in my career.</description>
+    </item>
+    
+  </channel>
+</rss>

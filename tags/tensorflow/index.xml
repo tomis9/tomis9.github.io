@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tensorflow on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/tensorflow/</link>
+    <description>Recent content in tensorflow on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Jan 2019 18:17:38 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tensorflow</title>
+      <link>https://tomis9.github.io/tensorflow/</link>
+      <pubDate>Tue, 01 Jan 2019 18:17:38 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tensorflow/</guid>
+      <description>1. What is tensorflow and why would you use it?  tensorflow is a machine learning framework
+ which has APIs to Python, C++ and R
+ and let&amp;rsquo;s you evaluate any machine learning algorithm, especially deep learning:
+ quickly (all the computations are performed in C++)
+ easily - you can view your results in a GUI - Tensorboard
+ on a huge amount of data, as tensorflow scales easily to many machines and can even make use of GPU.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataframes on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/dataframes/</link>
+    <description>Recent content in dataframes on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Mar 2017 13:07:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/dataframes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>reshape2</title>
+      <link>https://tomis9.github.io/reshape2/</link>
+      <pubDate>Wed, 01 Mar 2017 13:07:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/reshape2/</guid>
+      <description>1. What is reshape2 and why would you use it? reshape2 is an R package that let’s you change the shape of any dataframe, i.e. to pivot and to “unpivot”.
+Keep in mind that if your favourite R package for dataframes manipulation is data.table, functions dcast and melt are already in this package and work exactly the same as those in reshape2.
+ 2. A “Hello World” example In fact there are only two functions worth mentioning: dcast, which is equivalent to MS Excel pivot table, and melt, which does the opposite or unpivots a table.</description>
+    </item>
+    
+  </channel>
+</rss>

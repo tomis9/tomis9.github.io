@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>tomis9&#39;s cookbook</title>
+  <link rel="shortcut icon" type='image/x-icon' href="https://tomis9.github.io/favicon.ico"/>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  
+  <link rel="stylesheet" href="https://tomis9.github.io/css/bootstrap-toc.css">
+
+  
+  <link rel="stylesheet" href="https://tomis9.github.io/css/darcula.css">
+
+  
+  <link rel="stylesheet" href="https://tomis9.github.io/css/style.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">        
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Fascinate&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+</head>
+
+
+<body data-spy="scroll" data-target="#toc">
+
+
+
+<nav id="navbar" class="navbar navbar-expand-md fixed-top navbar-hide transition">
+
+  
+  <a class="navbar-brand"></a>
+
+  <button class="navbar-toggler float-xs-right" data-toggle="collapse" data-target="#collapsibleNavbar">
+    Menu
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://tomis9.github.io">Home</a>
+      </li>
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Python</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/airflow/">airflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/beautiful_soup/">beautiful soup</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/decorators/">decorators</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/flask/">flask</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/learning_tensorflow/">learning tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/logging/">logging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pandas/">pandas</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pyenv/">pyenv, virtualenv, freeze</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pytorch/">pytorch</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/spark/">spark</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/sqlalchemy/">sqlAlchemy</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tensorflow/">tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">R</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/cinr/">C in R</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rmariadb/">RMariaDB (former RMySQL)</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rcpp/">Rcpp</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/classess4/">classes - S4</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/data.table/">data.table</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/debugging/">debugging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/decision_trees/">decision trees</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/ggplot2/">ggplot2</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/logging/">logging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/lubridate/">lubridate</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/nls/">nls</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/packages/">packages</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rtags/">rTags</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/reshape2/">reshape2</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rocker/">rocker</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rstanarm/">rstanarm</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/shiny/">shiny</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/spark/">spark</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/sqldf/">sqldf</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tidyverse/">tidyverse</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Data engineering</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/airflow/">airflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/hadoop/">hadoop</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/logging/">logging</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pandas/">pandas</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/spark/">spark</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/useful_processing/">useful processing</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Machine learning</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/ml/">basic machine learning algorithms</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/decision_trees/">decision trees</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/learning_tensorflow/">learning tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/validation/">model validation</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/nls/">nls</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pytorch/">pytorch</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tensorflow/">tensorflow</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/useful_processing/">useful processing</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">DevOps</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/docker/">docker</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/flask/">flask</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/git/">git</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/heroku/">heroku</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/mesos/">mesos</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pyenv/">pyenv, virtualenv, freeze</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/rocker/">rocker</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/testing/">testing</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/vagrant/">vagrant</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Projects</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/vim_vs_emacs/">vim vs emacs - text mining to settle the editor war</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/cookbook/">writing a cookbook</a>
+          
+        </div>
+      </li>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">scratchpad</a>
+        <div class="dropdown-menu scrollable-menu">
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/hugo/">Hugo</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/file/">Rmarkdown total basics</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/caffee/">caffee</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/cassandra/">cassandra</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/featuretools/">featuretools</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/gitlab_ci/">gitlab-ci</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/kafka/">kafka</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/marathon/">marathon</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/nlp/">nlp</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/pandas/">pandas</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/passing_arguments/">passing arguments to scripts</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/redis/">redis</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/tensorflow_serving/">tensorflow_serving</a>
+          
+            <a class="dropdown-item" href="https://tomis9.github.io/theano/">theano</a>
+          
+        </div>
+      </li>
+    
+    </ul>
+
+  </div>  
+
+</nav>
+
+
+
+<div class="jumbotron text-center" id="header">
+
+  <div id="header-title">
+      <a href="https://tomis9.github.io">tomis9&#39;s cookbook</a>
+  </div>
+
+  <p style="color: white;">data science tutorials and snippets prepared by tomis9</p> 
+
+</div>
+
+
+<nav id="toc" data-toggle="toc" class="sticky-top d-none d-xl-block"></nav>
+
+<div class="article">
+
+<div class="article-categories">
+  
+    <object style="vertical-align:middle" type="image/svg+xml" data="/folder.svg" height="15px" width="15px"></object> 
+    <a href="https://tomis9.github.io/categories/python" role="button">Python </a>
+    &emsp;
+  
+    <object style="vertical-align:middle" type="image/svg+xml" data="/folder.svg" height="15px" width="15px"></object> 
+    <a href="https://tomis9.github.io/categories/data-engineering" role="button">Data engineering </a>
+    &emsp;
+  
+    <object style="vertical-align:middle" type="image/svg+xml" data="/folder.svg" height="15px" width="15px"></object> 
+    <a href="https://tomis9.github.io/categories/scratchpad" role="button">scratchpad </a>
+    &emsp;
+  </br>
+</div>
+<div class="article-title">
+  
+  pandas
+
+</div>
+<div class="article-info">
+    Jan 25, 2019 &emsp;  &emsp; 5 minutes read
+</div>
+
+
+
+
+<center>
+<div id="this-is-not-a-proper-blog-post-yet-just-my-notes." class="section level1">
+<h1>This is not a proper blog post yet, just my notes.</h1>
+pandas (TODO)
+</center>
+</div>
+<div id="what-is-pandas-and-why-would-you-use-it" class="section level1">
+<h1>1. What is <code>pandas</code> and why would you use it?</h1>
+<ul>
+<li><p><code>pandas</code> is a Python package created for working with tables known as <code>DataFrame</code>s;</p></li>
+<li><p>it is the only reasonable Python package for this purpose, which makes Python a little modest comparing to R (base, data.table, dplyr - every one of them has a better interface than pandas) when we process tables;</p></li>
+</ul>
+<p>Even though I use pandas almost every day, there are certain solutions that I constantly forget about.</p>
+</div>
+<div id="examples" class="section level1">
+<h1>2. Examples</h1>
+<p>One of the simplest, yet powerful interfaces to work with tables has SQL, so I will describe <code>pandas</code>’ equivalents to SQL’s functions.</p>
+<p>But first let’s prepare a dataset:</p>
+<pre class="python"><code>import pandas as pd
+import re
+from sklearn.datasets import load_iris
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+def prepare_iris_as_in_r():
+    iris_raw = load_iris()
+    colnames = [re.sub(&#39; &#39;, &#39;_&#39;, re.sub(&#39; \(cm\)&#39;, &#39;&#39;, x))
+                for x in iris_raw.feature_names]
+    iris = pd.DataFrame(iris_raw.data, columns=colnames)
+    species = pd.DataFrame({&#39;species_index&#39;: range(3),
+                            &#39;species&#39;: iris_raw.target_names})
+    iris[&#39;species_index&#39;] = iris_raw.target
+    iris = pd.merge(iris, species, on=&#39;species_index&#39;)
+    iris.drop(&#39;species_index&#39;, axis=1, inplace=True)
+    return iris</code></pre>
+<p>We’ve been working on this dataset in almost every post I wrote for this blog. It’s rather small and simple, so we will not take advantage of <code>pandas</code>’s processing efficiency.</p>
+<pre class="python"><code>iris = prepare_iris_as_in_r()</code></pre>
+<div id="reading-data-from-a-file" class="section level2">
+<h2>reading data from a file</h2>
+<p>In our examples we will not be doing this, because we have already loeaded the data from <code>sklearn</code>. You can do it with:</p>
+<pre class="python"><code>data = pd.read_csv()</code></pre>
+<blockquote>
+<p>Don’t name your datasets <code>data</code>. Everything we work on is data, so this name conveys no information. I named our dataset that way for the same reason as in most tutorials the default password is “password”.</p>
+</blockquote>
+<p>useful parameters:</p>
+<ul>
+<li><p><code>sep</code></p></li>
+<li><p><code>delimiter</code></p></li>
+<li><p><code>header</code></p></li>
+</ul>
+<p>Parameters are rather self-explanatory. And yes, I know that in SQL we don’t read files ;)</p>
+</div>
+<div id="where-filtering" class="section level2">
+<h2>WHERE filtering</h2>
+<p>The easiest way to filter a <code>DataFrame</code> is by using:</p>
+<pre><code>iris[iris.species == &quot;setosa&quot;].head()
+iris[~iris.sepal_length.isna()].head()</code></pre>
+</div>
+</div>
+<div id="select-2-selecting" class="section level1">
+<h1>SELECT 2 selecting</h1>
+<pre class="python"><code>iris[[&#39;species&#39;, &#39;sepal_width&#39;]]</code></pre>
+<pre><code>##        species  sepal_width
+## 0       setosa          3.5
+## 1       setosa          3.0
+## 2       setosa          3.2
+## 3       setosa          3.1
+## 4       setosa          3.6
+## 5       setosa          3.9
+## 6       setosa          3.4
+## 7       setosa          3.4
+## 8       setosa          2.9
+## 9       setosa          3.1
+## 10      setosa          3.7
+## 11      setosa          3.4
+## 12      setosa          3.0
+## 13      setosa          3.0
+## 14      setosa          4.0
+## 15      setosa          4.4
+## 16      setosa          3.9
+## 17      setosa          3.5
+## 18      setosa          3.8
+## 19      setosa          3.8
+## 20      setosa          3.4
+## 21      setosa          3.7
+## 22      setosa          3.6
+## 23      setosa          3.3
+## 24      setosa          3.4
+## 25      setosa          3.0
+## 26      setosa          3.4
+## 27      setosa          3.5
+## 28      setosa          3.4
+## 29      setosa          3.2
+## ..         ...          ...
+## 120  virginica          3.2
+## 121  virginica          2.8
+## 122  virginica          2.8
+## 123  virginica          2.7
+## 124  virginica          3.3
+## 125  virginica          3.2
+## 126  virginica          2.8
+## 127  virginica          3.0
+## 128  virginica          2.8
+## 129  virginica          3.0
+## 130  virginica          2.8
+## 131  virginica          3.8
+## 132  virginica          2.8
+## 133  virginica          2.8
+## 134  virginica          2.6
+## 135  virginica          3.0
+## 136  virginica          3.4
+## 137  virginica          3.1
+## 138  virginica          3.0
+## 139  virginica          3.1
+## 140  virginica          3.1
+## 141  virginica          3.1
+## 142  virginica          2.7
+## 143  virginica          3.2
+## 144  virginica          3.3
+## 145  virginica          3.0
+## 146  virginica          2.5
+## 147  virginica          3.0
+## 148  virginica          3.4
+## 149  virginica          3.0
+## 
+## [150 rows x 2 columns]</code></pre>
+</div>
+<div id="proper-ways-of-selection-filtering" class="section level1">
+<h1>proper ways of selection + filtering</h1>
+</div>
+<div id="loc---you-may-use-ranges-as-well-as-names" class="section level1">
+<h1><code>loc</code> - you may use ranges as well as names</h1>
+<pre class="python"><code>iris.loc[:10, [&#39;species&#39;, &#39;sepal_length&#39;]]</code></pre>
+<pre><code>##    species  sepal_length
+## 0   setosa           5.1
+## 1   setosa           4.9
+## 2   setosa           4.7
+## 3   setosa           4.6
+## 4   setosa           5.0
+## 5   setosa           5.4
+## 6   setosa           4.6
+## 7   setosa           5.0
+## 8   setosa           4.4
+## 9   setosa           4.9
+## 10  setosa           5.4</code></pre>
+</div>
+<div id="iloc---you-can-use-unly-ranges" class="section level1">
+<h1><code>iloc</code> - you can use unly ranges</h1>
+<pre class="python"><code>iris.iloc[:10, :3]</code></pre>
+<pre><code>##    sepal_length  sepal_width  petal_length
+## 0           5.1          3.5           1.4
+## 1           4.9          3.0           1.4
+## 2           4.7          3.2           1.3
+## 3           4.6          3.1           1.5
+## 4           5.0          3.6           1.4
+## 5           5.4          3.9           1.7
+## 6           4.6          3.4           1.4
+## 7           5.0          3.4           1.5
+## 8           4.4          2.9           1.4
+## 9           4.9          3.1           1.5</code></pre>
+</div>
+<div id="group-by-3-aggregating" class="section level1">
+<h1>GROUP BY 3 aggregating</h1>
+<pre class="python"><code>iris.groupby(&#39;species&#39;).agg({&#39;sepal_length&#39;: sum, &#39;petal_length&#39;: np.median})</code></pre>
+<pre><code>##             petal_length  sepal_length
+## species                               
+## setosa              1.50         250.3
+## versicolor          4.35         296.8
+## virginica           5.55         329.4</code></pre>
+<pre><code>pd.DataFrame({&#39;count&#39; : df1.groupby( [ &quot;Name&quot;, &quot;City&quot;] ).size()}).reset_index()</code></pre>
+</div>
+<div id="join-4-joining" class="section level1">
+<h1>JOIN 4 joining</h1>
+</div>
+<div id="plotting" class="section level1">
+<h1>plotting</h1>
+<pre class="python"><code>iris.groupby(&#39;species&#39;).size().plot.bar()
+plt.show()</code></pre>
+<p><img src="https://tomis9.github.io/pandas_files/figure-html/unnamed-chunk-8-1.png" /><!-- --></p>
+</div>
+<div id="ordering" class="section level1">
+<h1>ordering</h1>
+</div>
+<div id="pivot-table" class="section level1">
+<h1>pivot table</h1>
+</div>
+<div id="indexes-or-series-vs.dataframe" class="section level1">
+<h1>indexes, or Series vs. DataFrame</h1>
+<p>You may have noticed that pandas uses indexes extensively, which may be not very intuitive if you come with R or SQL background (especially that index in pandas is means something different than in SQL, which <em>is</em> misleading). In general the easiest way to cope with their problematic nature is trying to avoid them.</p>
+<pre class="python"><code>plt.scatter(iris.sepal_length, iris.sepal_width)</code></pre>
+<p><img src="https://tomis9.github.io/pandas_files/figure-html/unnamed-chunk-9-1.png" /><!-- --></p>
+</div>
+<div id="todo" class="section level1">
+<h1>TODO</h1>
+<pre class="python"><code>import numpy as np
+col1 = list(&#39;abcdefghij&#39;)
+start_date = pd.date_range(pd.datetime.today(), periods=10).tolist()
+end_date = pd.date_range(pd.datetime.today(), periods=10).tolist()
+
+df = pd.DataFrame(dict(col1=col1, start_date=start_date, end_date=end_date))
+
+df.melt(id_vars=&#39;col1&#39;, 
+        value_vars=[&#39;start_date&#39;, &#39;end_date&#39;],
+        var_name=&#39;is_start_end&#39;,
+        value_name=&#39;date&#39;)</code></pre>
+<pre><code>##    col1 is_start_end                       date
+## 0     a   start_date 2019-12-22 22:54:59.241695
+## 1     b   start_date 2019-12-23 22:54:59.241695
+## 2     c   start_date 2019-12-24 22:54:59.241695
+## 3     d   start_date 2019-12-25 22:54:59.241695
+## 4     e   start_date 2019-12-26 22:54:59.241695
+## 5     f   start_date 2019-12-27 22:54:59.241695
+## 6     g   start_date 2019-12-28 22:54:59.241695
+## 7     h   start_date 2019-12-29 22:54:59.241695
+## 8     i   start_date 2019-12-30 22:54:59.241695
+## 9     j   start_date 2019-12-31 22:54:59.241695
+## 10    a     end_date 2019-12-22 22:54:59.249235
+## 11    b     end_date 2019-12-23 22:54:59.249235
+## 12    c     end_date 2019-12-24 22:54:59.249235
+## 13    d     end_date 2019-12-25 22:54:59.249235
+## 14    e     end_date 2019-12-26 22:54:59.249235
+## 15    f     end_date 2019-12-27 22:54:59.249235
+## 16    g     end_date 2019-12-28 22:54:59.249235
+## 17    h     end_date 2019-12-29 22:54:59.249235
+## 18    i     end_date 2019-12-30 22:54:59.249235
+## 19    j     end_date 2019-12-31 22:54:59.249235</code></pre>
+</div>
+
+</div>
+
+<div class="jumbotron text-center" id="footer">
+
+  made using &emsp;
+  <br class="d-xl-none">
+  <a href="https://gohugo.io/">Hugo</a> |
+  <a href="https://getbootstrap.com/">Bootstrap</a> |
+  <a href="https://highlightjs.org/">highlightjs</a> |
+  <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> |
+  <a href="https://fonts.google.com/">Google fonts</a> &emsp;
+  <br class="d-xl-none">
+  <a href="https://github.com/tomis9/cookbook">github</a> |
+  <a href="https://travis-ci.org/tomis9/cookbook">travis-ci</a> <a href="https://travis-ci.org/tomis9/cookbook"><img src="https://api.travis-ci.org/tomis9/cookbook.png"></img></a> |
+  <a href="https://hub.docker.com/r/tomis9/cookbook">docker hub</a> &emsp;
+  <br class="d-xl-none">
+  <a href="https://aws.amazon.com/s3">Amazon S3</a> |
+  <a href="https://aws.amazon.com/route53/">Amazon Route 53</a> &emsp;
+  <br class="d-xl-none">
+  Copyright &copy; 2019 tomis9
+
+</div>
+
+</body>
+
+
+
+<script src="https://tomis9.github.io/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<script src="https://tomis9.github.io/js/bootstrap-toc.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+<script>
+$(window).scroll(function() {
+  
+  if ($(window).scrollTop() > 100 ) {
+    $('.navbar').removeClass('navbar-hide');
+    $('.navbar').addClass('navbar-show');
+  } else {
+    $('.navbar').removeClass('navbar-show');
+    $('.navbar').addClass('navbar-hide');
+  };   	
+});
+</script>
+
+</html>
+

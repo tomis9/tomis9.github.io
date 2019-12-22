@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/</link>
+    <description>Recent content in Tags on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Feb 2018 22:07:51 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C</title>
+      <link>https://tomis9.github.io/tags/c/</link>
+      <pubDate>Tue, 06 Feb 2018 22:07:51 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://tomis9.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Sun, 04 Feb 2018 12:03:14 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data engineering</title>
+      <link>https://tomis9.github.io/tags/data-engineering/</link>
+      <pubDate>Tue, 04 Dec 2018 21:32:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://tomis9.github.io/tags/devops/</link>
+      <pubDate>Mon, 03 Dec 2018 15:01:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marathon</title>
+      <link>https://tomis9.github.io/tags/marathon/</link>
+      <pubDate>Sun, 12 Aug 2018 15:29:44 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/marathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesos</title>
+      <link>https://tomis9.github.io/tags/mesos/</link>
+      <pubDate>Sun, 12 Aug 2018 15:29:44 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/mesos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>https://tomis9.github.io/tags/oop/</link>
+      <pubDate>Sun, 04 Feb 2018 12:00:04 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://tomis9.github.io/tags/python/</link>
+      <pubDate>Fri, 23 Nov 2018 12:58:49 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://tomis9.github.io/tags/r/</link>
+      <pubDate>Sat, 26 Jan 2019 14:12:24 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://tomis9.github.io/tags/sql/</link>
+      <pubDate>Sat, 25 Aug 2018 16:22:07 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blueprint</title>
+      <link>https://tomis9.github.io/tags/blueprint/</link>
+      <pubDate>Mon, 13 Aug 2018 20:19:17 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/blueprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data.table</title>
+      <link>https://tomis9.github.io/tags/data.table/</link>
+      <pubDate>Mon, 11 Dec 2017 14:26:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/data.table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dataframes</title>
+      <link>https://tomis9.github.io/tags/dataframes/</link>
+      <pubDate>Wed, 01 Mar 2017 13:07:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/dataframes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debugging</title>
+      <link>https://tomis9.github.io/tags/debugging/</link>
+      <pubDate>Thu, 15 Feb 2018 15:17:57 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>decorators</title>
+      <link>https://tomis9.github.io/tags/decorators/</link>
+      <pubDate>Sun, 12 Aug 2018 15:30:35 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/decorators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://tomis9.github.io/tags/docker/</link>
+      <pubDate>Sun, 16 Dec 2018 15:47:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dplyr</title>
+      <link>https://tomis9.github.io/tags/dplyr/</link>
+      <pubDate>Mon, 11 Dec 2017 14:26:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>https://tomis9.github.io/tags/flask/</link>
+      <pubDate>Mon, 13 Aug 2018 20:19:17 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask-JSONRPC</title>
+      <link>https://tomis9.github.io/tags/flask-jsonrpc/</link>
+      <pubDate>Mon, 13 Aug 2018 20:19:17 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/flask-jsonrpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggplot2</title>
+      <link>https://tomis9.github.io/tags/ggplot2/</link>
+      <pubDate>Mon, 11 Dec 2017 14:26:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://tomis9.github.io/tags/git/</link>
+      <pubDate>Mon, 03 Dec 2018 15:01:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gunicorn</title>
+      <link>https://tomis9.github.io/tags/gunicorn/</link>
+      <pubDate>Mon, 13 Aug 2018 20:19:17 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/gunicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hadoop</title>
+      <link>https://tomis9.github.io/tags/hadoop/</link>
+      <pubDate>Tue, 04 Dec 2018 21:32:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logging</title>
+      <link>https://tomis9.github.io/tags/logging/</link>
+      <pubDate>Sat, 20 Oct 2018 00:15:21 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lubridate</title>
+      <link>https://tomis9.github.io/tags/lubridate/</link>
+      <pubDate>Fri, 03 Mar 2017 13:46:45 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/lubridate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyenv</title>
+      <link>https://tomis9.github.io/tags/pyenv/</link>
+      <pubDate>Sun, 12 Aug 2018 15:32:40 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/pyenv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>readr</title>
+      <link>https://tomis9.github.io/tags/readr/</link>
+      <pubDate>Mon, 11 Dec 2017 14:26:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/readr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spark</title>
+      <link>https://tomis9.github.io/tags/spark/</link>
+      <pubDate>Fri, 23 Nov 2018 12:58:49 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>https://tomis9.github.io/tags/statistics/</link>
+      <pubDate>Sun, 28 Jan 2018 22:52:21 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tensorflow</title>
+      <link>https://tomis9.github.io/tags/tensorflow/</link>
+      <pubDate>Tue, 01 Jan 2019 18:17:38 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text-mining</title>
+      <link>https://tomis9.github.io/tags/text-mining/</link>
+      <pubDate>Sat, 26 Jan 2019 14:12:24 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/text-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyverse</title>
+      <link>https://tomis9.github.io/tags/tidyverse/</link>
+      <pubDate>Mon, 11 Dec 2017 14:26:39 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://tomis9.github.io/tags/vim/</link>
+      <pubDate>Sun, 11 Feb 2018 13:47:00 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualenv</title>
+      <link>https://tomis9.github.io/tags/virtualenv/</link>
+      <pubDate>Sun, 12 Aug 2018 15:32:40 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/virtualenv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-dev</title>
+      <link>https://tomis9.github.io/tags/web-dev/</link>
+      <pubDate>Fri, 24 Mar 2017 09:13:23 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/tags/web-dev/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

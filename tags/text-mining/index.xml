@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text-mining on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/text-mining/</link>
+    <description>Recent content in text-mining on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 26 Jan 2019 14:12:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vim vs emacs - text mining to settle the editor war</title>
+      <link>https://tomis9.github.io/vim_vs_emacs/</link>
+      <pubDate>Sat, 26 Jan 2019 14:12:24 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/vim_vs_emacs/</guid>
+      <description>This project is not finished and will be developed over time.
+ 0. Why I’m making this project  I want to try out new programming and statistical tools that I read or heard about (tidytext, nlp, laser) on a subject that I find interesting (text editors).
+ If somebody asks me if vim is a good choice for a text editor, I want to have objective arguments to prove my statement.</description>
+    </item>
+    
+  </channel>
+</rss>

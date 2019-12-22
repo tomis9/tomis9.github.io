@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web-dev on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/web-dev/</link>
+    <description>Recent content in web-dev on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Mar 2017 09:13:23 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>shiny</title>
+      <link>https://tomis9.github.io/shiny/</link>
+      <pubDate>Fri, 24 Mar 2017 09:13:23 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/shiny/</guid>
+      <description>1. What is shiny and why would you use it?  shiny is an R package that let&amp;rsquo;s you create dynamic web applications without any knowledge of html, css and javascript, php etc. Pure R.  Sounds like a dream?
+ Advantages:
+ easy to learn the basics;
+ easy to set up.
+  Disadvantages:
+ scalability;
+ performance;
+ in order to make the application work the way you want to, you have to involve javascript, html and css.</description>
+    </item>
+    
+  </channel>
+</rss>

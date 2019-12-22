@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/git/</link>
+    <description>Recent content in git on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 Dec 2018 15:01:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>git</title>
+      <link>https://tomis9.github.io/git/</link>
+      <pubDate>Mon, 03 Dec 2018 15:01:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/git/</guid>
+      <description>1. What is git and why would you use it?  Git is a totally basic program if you think seriously about programming. Seriously.
+ It&amp;rsquo;s a version control system, which makes:
+ working on the same project with many people simple;
+ remembers the whole history of the projects, i.e. all it&amp;rsquo;s chages as long as you follow git&amp;rsquo;s discipline
+   2. A &amp;ldquo;Hello world&amp;rdquo; example As you may have noticed, my posts usually contain a section called &amp;lsquo;A &amp;ldquo;Hello World&amp;rdquo; example&amp;rsquo;, but not this time.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/vim/</link>
+    <description>Recent content in vim on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 11 Feb 2018 13:47:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>rTags</title>
+      <link>https://tomis9.github.io/rtags/</link>
+      <pubDate>Sun, 11 Feb 2018 13:47:00 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/rtags/</guid>
+      <description>1. What are rTags and why would you use them? rTags let you jump directly to the definition of a function under your cursor. Modern IDE&amp;rsquo;s provide this functionality, so why wouldn&amp;rsquo;t you have it in vim?
+2. How to use them? You don&amp;rsquo;t necessarily have to read the articles from #3 (unless you want to understand what you are doing). All you have to do is run :RBuildTags, Nvim-R will create a tags file in your current directory and vim will automatically read this file each time you open any .</description>
+    </item>
+    
+  </channel>
+</rss>

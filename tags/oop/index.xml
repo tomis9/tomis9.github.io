@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OOP on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/oop/</link>
+    <description>Recent content in OOP on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 04 Feb 2018 12:00:04 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>classes - S4</title>
+      <link>https://tomis9.github.io/classess4/</link>
+      <pubDate>Sun, 04 Feb 2018 12:00:04 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/classess4/</guid>
+      <description>1. Why would you use OOP in R? Object oriented programming in R is unfortunately rather complicated comparing to Python (which seems to be the only reasonable alternative for data science programming).
+However, there are certain cases when OOP may come up helpful:
+ when you write your own package and you want users to work on an object that your function returns (print, summary, plot);
+ learning OOP in R is a good investment, because it let’s you understand better how functions like print, plot etc.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesos on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/mesos/</link>
+    <description>Recent content in Mesos on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Aug 2018 15:29:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/mesos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mesos</title>
+      <link>https://tomis9.github.io/mesos/</link>
+      <pubDate>Sun, 12 Aug 2018 15:29:44 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/mesos/</guid>
+      <description>1. What is Mesos and why would you use it?  It lets you setup and manage a cluster of machines &amp;ldquo;easily&amp;rdquo; (when you know how to use it, which is not very straightforward).
+ combined with Marathon it provides you with a nice interface to setup and manage docker containers and even build a whole system based on a microservice architecture.
+  2. Useful links  A quick introduction to Apache Mesos</description>
+    </item>
+    
+  </channel>
+</rss>

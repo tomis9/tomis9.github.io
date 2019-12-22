@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debugging on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/debugging/</link>
+    <description>Recent content in debugging on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Feb 2018 15:17:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>debugging</title>
+      <link>https://tomis9.github.io/debugging/</link>
+      <pubDate>Thu, 15 Feb 2018 15:17:57 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/debugging/</guid>
+      <description>1. What is debugging and why would use use it?  According to Wikipedia, “Debugging is the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system”.
+ R provides a couple of useful functions, which may be used not only for debugging purposes, but also for testing and even developing code.
+ All the functions present below are already available within basic packages (no installation required).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/devops/</link>
+    <description>Recent content in DevOps on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 Dec 2018 15:01:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>git</title>
+      <link>https://tomis9.github.io/git/</link>
+      <pubDate>Mon, 03 Dec 2018 15:01:35 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/git/</guid>
+      <description>1. What is git and why would you use it?  Git is a totally basic program if you think seriously about programming. Seriously.
+ It&amp;rsquo;s a version control system, which makes:
+ working on the same project with many people simple;
+ remembers the whole history of the projects, i.e. all it&amp;rsquo;s chages as long as you follow git&amp;rsquo;s discipline
+   2. A &amp;ldquo;Hello world&amp;rdquo; example As you may have noticed, my posts usually contain a section called &amp;lsquo;A &amp;ldquo;Hello World&amp;rdquo; example&amp;rsquo;, but not this time.</description>
+    </item>
+    
+    <item>
+      <title>pyenv, virtualenv, freeze</title>
+      <link>https://tomis9.github.io/pyenv/</link>
+      <pubDate>Sun, 12 Aug 2018 15:32:40 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/pyenv/</guid>
+      <description>1. What are pyenv, virtualenv and freeze and why would you use them?  these three Python packages let you install your favourite Python version with your favourite Python packages&amp;rsquo; versions on any machine independently to those already installed on the system; you can even store many Python versions and Python packages&amp;rsquo; versions;
+ pyenv let&amp;rsquo;s you install any Python version you like;
+ virtualenv let&amp;rsquo;s you install any Python&amp;rsquo;s package version you like;</description>
+    </item>
+    
+    <item>
+      <title>packages</title>
+      <link>https://tomis9.github.io/packages/</link>
+      <pubDate>Sun, 04 Feb 2018 12:06:07 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/packages/</guid>
+      <description>1. What are R packages and why would you use them?  R packaging is a convenient way to store and share your R code.
+ It lets you incorporate testing with testthat specially prepared tools (you can use testthat without creating a package, but it&amp;rsquo;s slightly more complicated).
+ It lets you easily list dependencies with packrat. You can also achieve this without using a package.
+ You can easily version your code.</description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://tomis9.github.io/testing/</link>
+      <pubDate>Sun, 04 Feb 2018 12:02:23 +0100</pubDate>
+      
+      <guid>https://tomis9.github.io/testing/</guid>
+      <description>1. What is testing and why would you use it?  testing or test-driven development (TDD) is a discipline, which relies on writing a test for every functionality before creating it;
+ at first the test will fail, as we have not provided the proper functionality yet. Our goal is to fulfill this functionality, so the test will pass.
+  In reality you modify your tests as you create the functionality or even write the tests after you are finished writing it.</description>
+    </item>
+    
+  </channel>
+</rss>

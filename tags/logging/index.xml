@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logging on tomis9&#39;s cookbook</title>
+    <link>https://tomis9.github.io/tags/logging/</link>
+    <description>Recent content in logging on tomis9&#39;s cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 20 Oct 2018 00:15:21 +0200</lastBuildDate>
+    
+	<atom:link href="https://tomis9.github.io/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>logging</title>
+      <link>https://tomis9.github.io/logging/</link>
+      <pubDate>Sat, 20 Oct 2018 00:15:21 +0200</pubDate>
+      
+      <guid>https://tomis9.github.io/logging/</guid>
+      <description>1. What is logging and why would you use it?  Logging, in general, sends information about the execution of a program to the outside of the program, e.g. to stdout or to a file. Why would that be useful?
+ You may get the information of how and when the program was executed, e.g. who was using it&amp;rsquo;s functionalities and if all the pieces of your program finished correctly.</description>
+    </item>
+    
+  </channel>
+</rss>
