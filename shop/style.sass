@@ -1,0 +1,325 @@
+/* Variables */
+$height-small-box: 19vh
+
+/* Global set-up */
+* 
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body 
+    background-color: #1c1b1b
+    color: white
+    font-family: 'Ubuntu', sans-serif
+
+/* Header */    
+
+header 
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin: 0 5vw
+
+    a, i 
+        color: #fff
+        transition: color .3s 
+
+    a:hover 
+        color: #039dff
+        cursor: pointer
+
+    i 
+        padding: 10px
+        background-color: #1c1b1b
+
+    p 
+        font-size: 1.3rem
+        margin-top: 2vh
+
+.bars
+    display: none
+
+.magnifier
+    font-size: 1.3rem
+    padding-top: 2vh
+    padding-bottom: 0
+
+.menu
+    font-size: 1.3rem
+    margin-top: 2vh
+
+    a 
+        padding: 0 2vw
+
+.red-letter
+    color: #de0012
+
+.blue-letter
+    color: #0054de
+
+.yellow-letter
+    color: #ffcc01
+
+/* Main site */ 
+
+main 
+    margin: 2vh 5vw 0 5vw
+    display: grid
+    grid-template-columns: 20% 40% 20% 20%
+    grid-template-rows: 25% 25% 25% 25%
+
+.small-box
+    height: $height-small-box
+    position: relative
+
+.white-box
+    background-color: white
+    color: black
+
+.text-position
+    position: absolute
+    bottom: 0.5vw
+    right: 0.5vw
+    font-size: 1.5rem
+    grid-row: 2/3
+
+.articles
+    grid-row: 1/2
+    grid-column: 1/2
+    margin: 0 1vw 3vw 0
+        
+.music-notes
+    grid-row: 2/3
+    grid-column: 1/2
+    margin-right: 1vw
+
+.books
+    background-color: #de0012
+    height: 61.3vh
+    grid-row: 1/4
+    grid-column: 2/3
+    position: relative
+    display: grid
+    grid-template-rows: 90% 10%
+
+.booksTop
+    grid-row: 1/2
+    display: flex
+    flex-direction: row
+    position: relative
+
+.booksImg
+    width: 30%
+    max-height: 30vh
+    margin: auto
+    top: 0
+    bottom: 0 
+    object-fit: contain
+    display: block
+    position: absolute
+
+.default-link
+    position: absolute 
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 2
+//   /* this is a fix for IE7-9 */
+//     background-color:#ffffff    
+//     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"  
+//     filter: alpha(opacity=0)  
+//     opacity:0 
+
+.pic1
+    left: 5%
+
+.pic2
+    left: 35%
+    max-height: 35vh
+
+.pic3
+    left: 65%
+
+.invisibility
+    display: none
+
+.invisibilityTop
+    opacity: 0
+
+.animation
+    animation: fade 2s
+
+@keyframes fade 
+    0% 
+        opacity: 0
+
+    100%
+        opacity: 1 
+
+.carrousel-angle
+    position: absolute
+    top: 50%
+    font-size: 2rem
+
+.angle-right
+    right: 3%
+
+.angle-left
+    left: 3%   
+
+.watches
+    grid-row: 1/2
+    grid-column: 3/4
+    margin-left: 1vw
+
+.misc2
+    background-color: #ffcc01
+    grid-row: 2/3
+    grid-column: 3/4
+    margin-left: 1vw
+
+.cds
+    grid-row: 3/4
+    grid-column: 1/2
+    margin-right: 1vw
+
+.postcards
+    background-color: #0054de
+    grid-row: 4/5
+    grid-column: 1/2
+    margin-right: 1vw
+
+.coins
+    background-color: #de0012
+    grid-row: 1/2
+    grid-column: 4/5
+    margin-left: 1vw
+
+.misc1
+    background-color: #ffcc01
+    grid-row: 4/5
+    grid-column: 2/3
+
+.text-box
+    height: 40vh
+    grid-row: 3/5
+    grid-column: 3/5
+    margin-left: 1vw
+    padding: 1vw
+    padding-top: 5vh
+    transition: transform .8s, opacity .8s
+
+    h2 
+        padding-bottom: 1vw
+
+    p 
+        letter-spacing: 0.15vw
+        text-align: justify
+
+.info
+    grid-row: 2/3
+    grid-column: 4/5
+    margin-left: 1vw
+    font-size: 1.2rem
+    padding: 0.5vw
+    letter-spacing: 0.25vw
+    line-height: 4.25vh
+    transition: transform .8s, opacity 0.8s
+
+    span 
+        font-weight: bold
+
+.box-hover
+    transition: transform 0.8s, opacity 0.8s
+
+.box-hover:hover
+    transform: scale(1.05)
+    z-index: 1
+    cursor: pointer
+
+.books:hover
+    transform: scale(1.02)
+    cursor: pointer
+
+.misc1:hover
+    transform: scale(1.025)
+    cursor: pointer
+
+.angle
+    text-align: center
+    font-size: 1.7rem
+
+.move-right
+    transform: translateX(1vw)
+
+.move-left
+    transform: translateX(-1vw)
+
+.move-up
+    transform: translateY(-1vw)
+
+.move-down
+    transform: translateY(1vw)
+
+.move-down-right
+    transform: translate(1vw, 1vw)
+
+.shadow
+    opacity: 0.5 
+
+
+/* Feed */     
+
+.feed
+    display: grid
+    grid-template-columns: 20% 20% 20% 20% 20%
+    margin: 0 5vw
+
+.feed-first-column
+    grid-column: 1/2
+
+.feed-second-column
+    grid-column: 2/3
+
+.feed-third-column
+    grid-column: 3/4
+
+.feed-fourth-column
+    grid-column: 4/5
+
+.feed-fifth-column
+    grid-column: 5/6
+
+.list-box
+    margin: 1vw 1vw
+    position: relative
+    height: 35vh
+    display: inline-block
+
+    img
+        max-height: 100%
+        object-fit: contain
+        margin: auto
+        top: 0
+        bottom: 0 
+        position: absolute
+
+.boxPrice
+    background-color: rgba(28, 27, 27, .7)
+    color: white
+    font-weight: 500
+    padding: 0.5vw 0 0.5vw 0.8vw
+    position: absolute
+    bottom: 0
+    width: 100%
+
+/* List */  
+.listMain
+    margin: 1vh 5vw 0 5vw
+    text-align: justify
+
+.listTitle
+    margin: 3vh 0 0 5vw
+    font-size: 1.3rem
+    text-align: center
